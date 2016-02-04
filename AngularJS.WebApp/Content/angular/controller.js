@@ -8,6 +8,7 @@
             alert('Error in getting records');
         });
     }
+
     
     $scope.getPerson = function () {
         var personId = $routeParams.personId;
