@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS.WebApp", "AngularJS.WebApp\AngularJS.WebApp.csproj", "{D9E483D4-6414-4189-A0B7-EAF43A50FB6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS.Model", "AngularJS.Model\AngularJS.Model.csproj", "{4C14C4F3-8C6C-4E57-BF74-3826FD357223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS.Repository", "AngularJS.Repository\AngularJS.Repository.csproj", "{AD770D06-DDF8-4024-93DE-4802E2A4A2DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9E483D4-6414-4189-A0B7-EAF43A50FB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E483D4-6414-4189-A0B7-EAF43A50FB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E483D4-6414-4189-A0B7-EAF43A50FB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E483D4-6414-4189-A0B7-EAF43A50FB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C14C4F3-8C6C-4E57-BF74-3826FD357223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C14C4F3-8C6C-4E57-BF74-3826FD357223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C14C4F3-8C6C-4E57-BF74-3826FD357223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C14C4F3-8C6C-4E57-BF74-3826FD357223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD770D06-DDF8-4024-93DE-4802E2A4A2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD770D06-DDF8-4024-93DE-4802E2A4A2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD770D06-DDF8-4024-93DE-4802E2A4A2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD770D06-DDF8-4024-93DE-4802E2A4A2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

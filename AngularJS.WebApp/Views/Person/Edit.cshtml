@@ -1,0 +1,42 @@
+﻿@{
+    Layout = null;
+}
+
+<form name="formName">
+    <div ng-controller="octavianController" data-ng-init="getPerson()">
+
+        <p class="divHead">Employee</p>
+        <table>
+            <tr>
+                <td><b>Id</b></td>
+                <td>
+                    <input type="text" disabled="disabled" ng-model="personId" />
+                </td>
+            </tr>
+            <tr>
+                <td><b>Name</b></td>
+                <td>
+                    <input name="Name" type="text" ng-model="personName" required />
+                </td>
+            </tr>
+            <tr>
+                <td><b>Revenue</b></td>
+                <td>
+                    <input type="text" ng-model="personRevenue" />
+                </td>
+            </tr>
+            <tr>
+                <td><b>Comment</b></td>
+                <td>
+                    <input type="text" ng-model="personComment"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" class="btnAdd" value="Save" ng-click="editPerson()" ng-disabled="formName.Name.$invalid"/>
+                </td>
+            </tr>
+        </table>
+        <span ng-show="formName.Name.$invalid">The field Your name is required</span>
+    </div>
+</form>

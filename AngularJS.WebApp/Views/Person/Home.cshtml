@@ -1,0 +1,34 @@
+﻿@{
+    Layout = null; 
+}
+
+<div ng-controller="octavianController" data-ng-init="getAllPersons()">
+    @*<span delete-warning></span>*@
+    <div>
+        <h1> All Persons</h1>
+        <br />
+
+        <input type="button" class="btnAdd" value="Add Person" ng-click="addPerson()" />
+
+        <div class="divList">
+            <p class="divHead">Person List</p>
+            <table cellpadding="12" class="table table-bordered table-hover">
+                <tr>
+                    <td><b>Name</b></td>
+                    <td><b>Revenue</b></td>
+                    <td><b>Comments</b></td>
+                    <td></td>
+                </tr>
+                <tr ng-repeat="person in persons | filter:richPerson(200000)">
+                    <td custom-display field="person.Name | makelowercase"></td>
+                    <td custom-display field="person.Revenue"></td>
+                    <td custom-display field="person.Comment"></td>
+                    <td>
+                        <a ng-href="/edit/{{person.Id}}" class="btnAdd">Edit</a>
+                        <delete-warning salary="{{person.Revenue}}"></delete-warning>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
