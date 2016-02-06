@@ -15,6 +15,7 @@ namespace AngularJS.WebApp.Controllers
         //inject dependency
         public PersonController(IPersonRepository repository)
         {
+
             this._repository = repository;
         }
 
