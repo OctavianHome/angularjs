@@ -1041,10 +1041,6 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AngularJS.ElasticSearch\AngularJS.ElasticSearch.csproj">
-      <Project>{5c898ab0-20fa-444b-b6d6-a943105597e4}</Project>
-      <Name>AngularJS.ElasticSearch</Name>
-    </ProjectReference>
     <ProjectReference Include="..\AngularJS.Model\AngularJS.Model.csproj">
       <Project>{4c14c4f3-8c6c-4e57-bf74-3826fd357223}</Project>
       <Name>AngularJS.Model</Name>

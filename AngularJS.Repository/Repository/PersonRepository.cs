@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AngularJS.Model.Model;
 using AngularJS.Repository.Generic;
+using AngularJS.ElasticSearch;
 
 namespace AngularJS.Repository.Repository
 {
@@ -25,6 +26,14 @@ namespace AngularJS.Repository.Repository
         public IEnumerable<Person> GetAll()
         {
             // TO DO : Code to get the list of all the records in database
+            //var result = ElasticSearchManager.Instance.Search<Person>(body =>body.Filter(filter =>filter.Term(x => x., genre.ToLower()))  .Take(1000));
+
+            //var genreModel = new Person()
+            //{
+            //    Name = genre,
+            //    Revenue = result.Documents.ToList()
+            //};
+
             return personsList;
         }
         public Person Get(int id)
