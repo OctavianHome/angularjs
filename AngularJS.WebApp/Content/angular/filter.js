@@ -13,7 +13,7 @@
             return true;
 
         var objaa = item;
-        return item.Revenue > 200;
+        return item.Revenue > 0;
     };
 });
 

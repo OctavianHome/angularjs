@@ -19,7 +19,7 @@
                     <td><b>Comments</b></td>
                     <td></td>
                 </tr>
-                <tr ng-repeat="person in persons | filter:richPerson(200000)">
+                <tr ng-repeat="person in persons | filter:richPerson(0)">
                     <td custom-display field="person.Name | makelowercase"></td>
                     <td custom-display field="person.Revenue"></td>
                     <td custom-display field="person.Comment"></td>
