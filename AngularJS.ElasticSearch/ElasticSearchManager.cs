@@ -12,8 +12,8 @@ namespace AngularJS.ElasticSearch
         private static readonly Lazy<ElasticClient> _client = new Lazy<ElasticClient>(() =>
         {
             var setting = new ConnectionSettings(new Uri("http://localhost:9200"));
-            //setting.SetDefaultIndex("musicstore");
-            return new ElasticClient(setting);
+            var client= new ElasticClient(setting);
+            return client;
         });
 
         public static ElasticClient Instance { get { return _client.Value; } }
