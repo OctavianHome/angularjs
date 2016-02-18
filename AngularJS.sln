@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS.ElasticSearch", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS.Core", "AngularJS.Core\AngularJS.Core.csproj", "{2DE45D71-1AF4-4F15-BDC9-6BCF761F4892}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS.ElasticSearchConsole", "AngularJS.ElasticSearchConsole\AngularJS.ElasticSearchConsole.csproj", "{91A3C3B5-0571-4D06-B1DA-97BDE2F1ABDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2DE45D71-1AF4-4F15-BDC9-6BCF761F4892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DE45D71-1AF4-4F15-BDC9-6BCF761F4892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DE45D71-1AF4-4F15-BDC9-6BCF761F4892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A3C3B5-0571-4D06-B1DA-97BDE2F1ABDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A3C3B5-0571-4D06-B1DA-97BDE2F1ABDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A3C3B5-0571-4D06-B1DA-97BDE2F1ABDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A3C3B5-0571-4D06-B1DA-97BDE2F1ABDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
